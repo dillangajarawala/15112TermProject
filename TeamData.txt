@@ -1,0 +1,31 @@
+Eastern,Atlantic,Tampa Bay Lightning,276,24,76
+Eastern,Atlantic,Boston Bruins,258,24,84
+Eastern,Atlantic,Toronto Maple Leafs,224,25,81
+Eastern,Atlantic,Florida Panthers,249,19,80
+Eastern,Atlantic,Detroit Red Wings,234,18,78
+Eastern,Atlantic,Montreal Canadiens,244,21,74
+Eastern,Atlantic,Ottawa Senators,248,17,76
+Eastern,Atlantic,Buffalo Sabres,257,19,78
+Eastern,Metropolitan,Washington Capitals,244,23,80
+Eastern,Metropolitan,Pittsburgh Penguins,260,26,80
+Eastern,Metropolitan,Philadelphia Flyers,261,21,76
+Eastern,Metropolitan,Columbus Blue Jackets,227,17,76
+Eastern,Metropolitan,New Jersey Devils,252,21,82
+Eastern,Metropolitan,Carolina Hurricanes,239,18,77
+Eastern,Metropolitan,New York Islanders,250,23,73
+Eastern,Metropolitan,New York Rangers,241,21,81
+Western,Central,Nashville Predators,274,21,82
+Western,Central,Winnipeg Jets,274,23,82
+Western,Central,Minnesota Wild,240,20,81
+Western,Central,Colorado Avalanche,296,22,83
+Western,Central,St. Louis Blues,246,15,80
+Western,Central,Dallas Stars,244,19,81
+Western,Central,Chicago Blackhawks,269,16,79
+Western,Pacific,Vegas Golden Knights,248,21,81
+Western,Pacific,Anaheim Ducks,214,18,83
+Western,Pacific,San Jose Sharks,257,21,84
+Western,Pacific,Los Angeles Kings,240,20,85
+Western,Pacific,Calgary Flames,269,16,82
+Western,Pacific,Edmonton Oilers,210,15,76
+Western,Pacific,Vancouver Canucks,247,21,78
+Western,Pacific,Arizona Coyotes,243,17,79

@@ -1,0 +1,47 @@
+CONTENTS OF THIS FILE
+=====================
+
+Introduction
+Required modules
+Required technologies
+Running the project
+
+INTRODUCTION
+------------
+
+This file explains all the required modules and technologies that are required
+to run 'The Interactive NHL Experience' program.
+
+REQUIRED MODULES
+----------------
+
+There are a multitude of required modules for this project to run completely,
+but most of them are already imported inside the file. However, there is one
+module that is not built in, and must be downloaded. This module is pymongo.
+To install it, go to your terminal and type 'pip install pymongo'. That command
+should install the module.
+
+REQUIRED TECHNOLOGIES
+---------------------
+
+There is only one required outside technology that is used in the project, and
+that is the MongoDB Community Edition software. To install this software, go to
+the link https://docs.mongodb.com/manual/installation/ and follow the
+instructions for your specific operating system.
+
+RUNNING THE PROJECT
+-------------------
+
+Once you have pymongo and the MongoDB Community Edition installed, you are ready
+to run the project. To start, you have to create a new instance of MongoDB on
+your laptop. To do so, go to your terminal and type 'mongod'. You will see a
+series of text show up. Once the terminal stops and shows the line 'waiting for
+connections on port 27017', you can run the main.py file in your editor of
+choice and use the application. To close the instance of mongoDB, simply press
+Control + C while in the terminal.
+
+I hope you enjoy my project!
+
+Author: Dillan Gajarawala, Carnegie Mellon University
+
+Powered by News API
