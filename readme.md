@@ -1,4 +1,5 @@
 Introduction
+------------
 
 This file explains all the required modules and technologies that are required
 to run 'The Interactive NHL Experience' program.
