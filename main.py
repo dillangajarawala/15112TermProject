@@ -382,7 +382,6 @@ def newsKeyPressed(event, data):
 def getNewsInfo(data):
 	response = requests.get(url)
 	newsData = response.json()
-	print(newsData["articles"])
 	for article in newsData["articles"]:
 		info = dict()
 		info["author"] = article["author"]
