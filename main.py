@@ -382,6 +382,7 @@ def newsKeyPressed(event, data):
 def getNewsInfo(data):
 	response = requests.get(url)
 	newsData = response.json()
+	print(newsData["articles"])
 	for article in newsData["articles"]:
 		info = dict()
 		info["author"] = article["author"]
@@ -393,7 +394,10 @@ def drawNewsData(canvas,data):
 	offset = 3
 	for i in range(len(data.newsData)):
 		title = data.newsData[i]["title"]
-		author = "By: " + data.newsData[i]["author"]
+		if data.newsData[i]["author"] == None:
+			author = "By: None"
+		else:
+			author = "By: " + data.newsData[i]["author"]
 		link = "URL: " + data.newsData[i]["link"]
 		coord = (2 + i) * offset + (i*offset)
 		titlePos = coord * data.scroll3
