@@ -1,7 +1,7 @@
 #Dillan Gajarawala, Section M, dgajaraw
 
 """This file contains the forecasting algorithm that will be used to predict
-the winner of a hypothetical game and the score."""
+the winner of a hypothetical game as well as the score of the game."""
 
 import random
 
