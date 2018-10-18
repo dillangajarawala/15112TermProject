@@ -1,7 +1,7 @@
 # Dillan Gajarawala, Section M, dgajaraw
 
 """This file contains the run function that will actually execute the
-program. There are several different modes."""
+program. There are several different modes/screens within the program."""
 
 from pymongo import MongoClient
 import importdata
