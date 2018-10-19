@@ -384,7 +384,6 @@ def getNewsInfo(data):
 	newsData = response.json()
 	for article in newsData["articles"]:
 		info = dict()
-		info["author"] = article["author"]
 		info["title"] = article["title"]
 		info["link"] = article["url"]
 		data.newsData.append(info)
@@ -393,17 +392,11 @@ def drawNewsData(canvas,data):
 	offset = 3
 	for i in range(len(data.newsData)):
 		title = data.newsData[i]["title"]
-		if data.newsData[i]["author"] == None:
-			author = "By: None"
-		else:
-			author = "By: " + data.newsData[i]["author"]
 		link = "URL: " + data.newsData[i]["link"]
 		coord = (2 + i) * offset + (i*offset)
 		titlePos = coord * data.scroll3
-		authorPos = (coord + 1) * data.scroll3
-		urlPos = (coord + 2) * data.scroll3
+		urlPos = (coord + 1) * data.scroll3
 		canvas.create_text(data.width//2,titlePos-data.viewY, text=title, fill="white")
-		canvas.create_text(data.width//2,authorPos-data.viewY,text=author,fill="white")
 		canvas.create_text(data.width//2,urlPos-data.viewY,text=link, fill="white")
 
 def newsRedrawAll(canvas,data):
