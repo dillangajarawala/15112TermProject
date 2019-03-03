@@ -10,7 +10,7 @@ that allows a user to pit two teams (home and away) against each other. A predic
 winner and score will be shown.
 
 This file explains all the required modules and technologies that are required
-to run 'The Interactive NHL Experience' program.
+to run `The Interactive NHL Experience` program.
 
 Required Modules
 ----------------
