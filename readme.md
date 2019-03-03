@@ -1,6 +1,14 @@
 Introduction
 ------------
 
+Welcome to `The Interactive NHL Experience`! This project was made for 15-112,
+an introductory programming class at Carnegie Mellon University. It uses Python
+and MongoDB to maintain a local database of NHL player and team information. A 
+user is allowed to view and update the data. In addition top news headlines are 
+shown via an integrated News API. Finally, a game prediction feature is provided
+that allows a user to pit two teams (home and away) against each other. A predicted
+winner and score will be shown.
+
 This file explains all the required modules and technologies that are required
 to run 'The Interactive NHL Experience' program.
 
